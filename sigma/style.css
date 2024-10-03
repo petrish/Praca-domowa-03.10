@@ -1,0 +1,38 @@
+$primary-color: #FF6500;
+$box-color: rgba(60, 1, 255); 
+$text-color: #FF6500;
+$padding: 20px;
+
+body {
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: $padding;
+  background-color: $primary-color;
+}
+
+.box {
+  background-color: $box-color;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  img {
+    width: 150px;
+    height: 100px;
+  }
+
+  p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: $text-color;
+  }
+}
